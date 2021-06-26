@@ -1,0 +1,241 @@
+body{
+  margin: 0;
+}
+.container{
+  width:100%;
+  height: 1200px;
+  background: #FFFFFF;
+}
+.header{
+  display: block;
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80px;
+}
+.nav{
+
+  display: block;
+  float: right;
+  font-family: 'Puritan', sans-serif;
+  font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 27px;
+height: 80px;
+}
+.Apps{
+  display: inline-block;
+  margin-right: 50px;
+  margin-top: 27px;
+  margin-bottom: 26px;
+  color: #6B6B6B;
+}
+.About{
+  display: inline-block;
+  margin-right: 50px;
+  margin-top: 27px;
+  margin-bottom: 26px;
+	color: #6B6B6B;
+}
+.Contact{
+  display: inline-block;
+  background: #0078F3;
+  border-radius: 20px;
+  color: #FFFFFF;
+  padding: 7px 10px 6px 9px;
+
+}
+.Contact-button{
+
+  width: 100px;
+  height: 40px;
+  display: inline-block;
+}
+.logo{
+  display: inline-block;
+  width: 345.37px;
+  height: 40px;
+  background: url("images/logo.png");
+  margin: 20px 0px 20px 0px;
+}
+.content-main{
+  height: 602px;
+  background: url("images/background.png");
+}
+.content-main-text{
+  width: 900px;
+  margin: 0px auto 0px auto;
+  color: #FFFFFF;
+  padding-top: 195px;
+}
+.content-main-text-title{
+  font-family: 'Puritan', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 53px;
+}
+.content-main-text-letter{
+  font-family: 'Puritan', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 27px;
+}
+.content-info{
+    height: 600px;
+}
+.content-info-content{
+  padding-top: 95px;
+  width: 900px;
+  margin: 0px auto 0px auto;
+}
+.content-info-content-text{
+  display: inline-block;
+}
+.content-info-content-image{
+  display: inline-block;
+  float: right;
+}
+.content-title{
+  font-family: 'Puritan', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 53px;
+color: #000000;
+}
+.content-text{
+  font-family: 'Puritan', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 27px;
+
+color: #6B6B6B;
+}
+.content-list{
+  font-family: 'Puritan', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 200%;
+/* or 48px */
+
+
+color: #000000;
+}
+.footer{
+  background: #000000;
+height: 100px;
+}
+.footer-info{
+  width: 860px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 13px;
+}
+hr{
+  width: 860px;
+height: 0px;
+border: 1px solid #6B6B6B;
+}
+.footer-nav{
+  display:  inline-block;
+  margin-top: 6px;
+
+}
+.footer-image-nav{
+  display: inline-block;
+  float: right;
+}
+.end{
+  text-align: center;
+  font-family: PT Sans Narrow;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 100%;
+/* identical to box height, or 14px */
+
+
+color: #FFFFFF;
+}
+.Apps-f{
+  display: inline-block;
+  font-family: Puritan;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 100%;
+/* identical to box height, or 14px */
+
+
+color: #FFFFFF;
+}
+.About-f{
+  display: inline-block;
+  font-family: Puritan;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 100%;
+color: #FFFFFF;
+margin-left: 50px;
+}
+.Contact-f{
+  display: inline-block;
+  font-family: Puritan;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 100%;
+color: #FFFFFF;
+margin-left: 50px;
+}
+.image-nav-VK{
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 7px;
+}
+.VK-border{
+  background: #ffffff;
+  width: 30px;
+height: 30px;
+border-radius: 50%;
+}
+.img-VK{
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.image-nav-Insta{
+  display: inline-block;
+    margin-right: 20px;
+}
+.Insta-border{
+  background: #ffffff;
+  width: 30px;
+height: 30px;
+border-radius: 50%;
+}
+.img-Insta{
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.image-nav-Gplay{
+  display: inline-block;
+}
+.Gplay-border{
+  background: #ffffff;
+  width: 30px;
+height: 30px;
+border-radius: 50%;
+}
+.img-Gplay{
+  margin-left: 6px;
+  margin-top: 5px;
+}
+a{
+   text-decoration:none;
+}
