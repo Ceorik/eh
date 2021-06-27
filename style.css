@@ -240,6 +240,9 @@ border-radius: 50%;
 a{
    text-decoration:none;
 }
+.menu{
+  display: none;
+}
 @media (   max-width: 950px) {
   .nav{
     display: none;
@@ -295,6 +298,7 @@ a{
     background: rgba(255, 255, 255, 0); 
   }
   .menu{
+    display: block;
     position: absolute;
     width: 300px;
     height: 100%;
