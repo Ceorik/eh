@@ -13,7 +13,12 @@
 <body>
   <div class="container">
     <div class="header">
-      <a href=""> <div class="logo"></div></a>
+      <div class="menu"></div>
+      <div class="burger">
+        <span>
+        </span>
+      </div>
+      <a href="" class="logo-href"> <div class="logo"></div></a>
       <div class="nav">
         <a href=""> <div class="Apps">Apps</div></a>
         <a href=""> <div class="About">About</div></a>
@@ -75,5 +80,10 @@
       </div>
     </div>
   </div>
+  <script>
+    document.querySelector('.burger').addEventListener('click', function(){
+      document.querySelector('.burger span').classList.toggle('active');
+      document.querySelector('.menu').classList.toggle("animate");
+    })</script>
 </body>
 </html>
