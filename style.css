@@ -308,16 +308,21 @@ a{
     left: 0;
   }
   .header{
-    width: 100%;
+    width: auto;
   }
   .content-main-text{
-    width:100%;
+    width:auto;
   }
   .content-info{
     height: auto;
+    width: auto;
+  }
+  .content-info-content{
+    width: auto;
   }
   .content-info-content-text{
     display: block;
+    width: auto;
   }
   .content-info-content-image{
     margin-left: auto;
@@ -360,5 +365,11 @@ a{
 }
 .footer{
   height: auto;
+}
+.container{
+  width: auto;
+}
+hr{
+  width: auto;
 }
 }
