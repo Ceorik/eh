@@ -243,7 +243,21 @@ a{
 .menu{
   display: none;
 }
+.content-stealth{
+  display: none;
+}
 @media (   max-width: 950px) {
+  .content-stealth{
+    display: block;
+
+
+  }
+  .stealth-img{
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .nav{
     display: none;
   }
@@ -331,7 +345,7 @@ a{
   .content-info-content-image{
     margin-left: auto;
     margin-right: auto;
-    display: block;
+    display: none;
     float: none;
   }
   .container{
@@ -361,6 +375,12 @@ a{
 .Contact-f{
   margin-left: 22px;
 }
+.footer-nav{
+  text-align: center;
+}
+.footer-image-nav{
+  text-align: center;
+}
 .image-nav-VK{
   margin-right: 25px;
 }
@@ -376,4 +396,22 @@ a{
 hr{
   width: auto;
 }
+.content-title{
+  text-align: center;
+}
+.content-text{
+  max-width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.content-list{
+  max-width: 450px;
+  margin-right: auto;
+  margin-left: auto;
+}
+}
+@media (max-width:500px){
+  .logo{
+    display: none;
+  }
 }
