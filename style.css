@@ -246,7 +246,22 @@ a{
 .content-stealth{
   display: none;
 }
+.mini-logo{
+  display: none;
+  position: block;
+width: 210px;
+height: 24px;
+margin: auto;
+margin-top: 30px;
+background: url(/zar4za.github.io-main/zar4za.github.io-main/images/iii.png)
+}
 @media (   max-width: 950px) {
+  .content-main{
+    height: 400px;
+  }
+  .content-main-text{
+    text-align: center;
+  }
   .content-stealth{
     display: block;
 
@@ -261,6 +276,7 @@ a{
   .nav{
     display: none;
   }
+
   .logo{
     display: block;
     margin-left: auto;
@@ -384,8 +400,14 @@ a{
 .image-nav-VK{
   margin-right: 25px;
 }
+.img-VK{
+  margin-left: 0;
+}
 .image-nav-Insta{
   margin-right: 30px;
+}
+.img-Insta{
+  margin-left: 0;
 }
 .footer{
   height: auto;
@@ -411,7 +433,15 @@ hr{
 }
 }
 @media (max-width:500px){
+  .content-info-content{
+    padding-top: 18px;
+  }
+  .mini-logo{
+    display: block;
+    
+  }
   .logo{
+    
     display: none;
   }
 }
